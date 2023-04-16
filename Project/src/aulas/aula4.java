@@ -1,5 +1,4 @@
 package aulas;
-import javax.swing.*;
 import java.util.Scanner;
 public class aula4 {
     public static void main(String[] args) {
