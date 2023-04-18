@@ -13,6 +13,15 @@ public class exercicio11 {
         System.out.println("Escreva a hora em que o jogo terminou: ");
         hrFinal = sc.nextInt();
 
+        if (hrInicial < hrFinal) {
+            duracao = hrFinal - hrInicial;
+        }
+        else {
+            duracao = 24 - hrInicial + hrFinal;
+        }
 
+        System.out.println("O jogo durou " + duracao + " horas!");
+
+        sc.close();
     }
 }
